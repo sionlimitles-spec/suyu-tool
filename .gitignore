@@ -1,14 +1,15 @@
-# OS / editor
-.DS_Store
-Thumbs.db
-*.swp
-
-# Logs
-*.log
-
-# Dependencies (site ini tanpa build step, tapi jaga-jaga)
+# dependencies
 node_modules/
 
-# Local env
+# next.js
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# misc
+.DS_Store
+Thumbs.db
+*.log
 .env
 .env.*
