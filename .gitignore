@@ -1,0 +1,14 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Logs
+*.log
+
+# Dependencies (site ini tanpa build step, tapi jaga-jaga)
+node_modules/
+
+# Local env
+.env
+.env.*
